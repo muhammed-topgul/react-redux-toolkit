@@ -1,0 +1,101 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+}
+
+.items-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.nav-div {
+    position: relative;
+}
+
+.items-count-div {
+    background-color: white;
+    color: black;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.course-item {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1%;
+    margin: 10px;
+    box-shadow: 0 0 5px #343131;
+}
+
+.section {
+    text-align: center;
+    /*width: 50%;*/
+}
+
+.clear-btn {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.m1 {
+    margin: 10px;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.container {
+    box-shadow: 0 0 5px gray;
+    text-align: center;
+    margin: 0 25% 0 25%;
+    border-radius: 1%;
+}
+
+.search {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    margin: 1% 25% 0 0;
+}
+
+.form-div {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-field {
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w75 {
+    width: 75%;
+}
+
+.header {
+    padding-top: 5px;
+}
+
+.img {
+    border-radius: 50%;
+    border: solid 1px red;
+}
